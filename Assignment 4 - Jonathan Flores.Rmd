@@ -132,7 +132,7 @@ a. Start a new repository on GitHub for your SMU MSDS homework. On your local de
 
 ```{r echo=TRUE, results='asis'}
 
-## Repo was created, named "Assignment 4"
+## Repo was created in github, named "Homework4" as well as in local computer
 
 ```
 
@@ -150,17 +150,40 @@ c.In one (or more) of the nested directories, post your RMarkdown script, HTML f
 and data from ‘fivethirtyeight.’ Make sure that in your README or elsewhere that
 you credit fivethirtyeight in some way.
 
-```{r echo=TRUE, results='asis'}
 
-## This is the RMarkdown
+## The response on pushing the documents to the remote repo below
 
-```
+C:\Users\jfzjonathan\Desktop\Doing Data Science\Unit 4\Homework4>git add .
+
+C:\Users\jfzjonathan\Desktop\Doing Data Science\Unit 4\Homework4>git commit -a -m "Initial Commit"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\jfzjonathan\Desktop\Doing Data Science\Unit 4\Homework4>git push origin master
+To https://github.com/jfzjonathan/Homework4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/jfzjonathan/Homework4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\jfzjonathan\Desktop\Doing Data Science\Unit 4\Homework4>git push --force origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 270.87 KiB | 6.30 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/jfzjonathan/Homework4.git
+ + e659b68...36bfb85 master -> master (forced update)
+
 
 
 d. In your RMarkdown script, please provide the link to this GitHub so the grader can see
 it.
 
-```{r echo=TRUE, results='asis'}
+## The URL for the GitHUB is 
 
+https://github.com/jfzjonathan/Homework4
 
-```
